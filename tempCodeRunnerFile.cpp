@@ -1,0 +1,1 @@
+myarr[size]=myarr[0];

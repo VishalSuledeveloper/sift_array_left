@@ -12,8 +12,9 @@ int main(){
     cout<<"Without shifting array :";
     for(int i=0;i<size;i++){
         cout<<myarr[i]<<endl;
-        myarr[size]=myarr[0];
+       
     }
+    myarr[size]=myarr[0];
 
     for(int i=0;i<size;i++){
         myarr[i]=myarr[i+1];
